@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# 프로젝트 개요
+- React 프로젝트에서 SEO 대응을 위한 최소 작업 대응
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 개발환경 세팅
+- 
 
-## Available Scripts
+## Favicon 세팅 <--- TODO
+### 각 파일의 역할
+- `favicon.ico` : 웹사이트의 파비콘을 정의합니다. 대부분의 웹 브라우저는 이 파일을 찾아서 탭, 북마크, 히스토리 목록 등에서 해당 웹사이트의 아이콘으로 사용합니다. 주로 16x16, 32x32, 48x48의 크기를 포함할 수 있습니다.
 
-In the project directory, you can run:
+- `manifest.json` : 웹 애플리케이션의 메타데이터를 정의합니다. 특히, Progressive Web Apps(PWA)에서 중요한 역할을 합니다. 웹 앱의 이름, 시작 URL, 배경 색상, 테마 색상, 디스플레이 유형(예: 전체 화면) 및 브라우저 탭에 표시될 아이콘들을 포함할 수 있습니다.
 
-### `npm start`
+- `browserconfig.xml` : 주로 Microsoft의 Internet Explorer와 Edge 브라우저를 위한 것으로, 시작 화면 타일, 타일 색상 및 타일에 사용될 이미지 등의 설정을 포함할 수 있습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `android-icon` : Android 기기에서 웹사이트를 홈 화면에 추가할 때 사용되는 아이콘을 지정합니다. 다양한 크기로 제공되어 다양한 해상도를 가진 기기에서 최적의 아이콘을 제공할 수 있습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `apple-icon` : Apple 기기에서 사용되는 아이콘을 지정합니다. iOS 기기의 Safari 브라우저에서 웹사이트를 홈 화면에 추가할 때 사용됩니다. apple-touch-icon으로도 알려져 있으며, 다양한 크기로 제공됩니다.
 
-### `npm test`
+- `ms-icon` : Microsoft 기기에서 사용되는 아이콘을 지정합니다. 주로 Windows 8 이상에서 시작 화면 타일로 웹사이트를 추가할 때 사용됩니다. 다양한 크기로 제공되어 최적의 사용자 경험을 제공할 수 있습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## SEO 스코어 분석
+- 스코어 분석에 사용한 서비스: https://freetools.seobility.net
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 개선점
+- H1-H6 headings 사용
+- External links & Backlinks 설정
+- gzip 압축
