@@ -2,7 +2,26 @@
 - React 프로젝트에서 SEO 대응을 위한 최소 작업 대응
 
 ## 개발환경 세팅
-- 
+### Requirements
+- `react": "^18.2.0"`
+- `react-helmet": "^6.1.0`
+
+### Quick Start
+```shell
+$ git clone https://github.com/jkl851/front_seo_practice.git
+$ cd front_seo_practice
+```
+- `npm`
+
+```shell
+$ npm install
+$ npm run start
+```
+- `yarn`
+```shell
+$ yarn install
+$ yarn start
+```
 
 ## Favicon 세팅 <--- TODO
 ### 각 파일의 역할
